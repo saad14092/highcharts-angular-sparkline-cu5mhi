@@ -1,0 +1,38 @@
+<table id="table-sparkline">
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Income</th>
+      <th>Income per quarter</th>
+      <th>Costs</th>
+      <th>Costs per quarter</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody id="tbody-sparkline">
+    <tr>
+      <th>Alabama</th>
+      <td>254</td>
+      <td>
+        <app-spark-line [name]="'Alabama'" [data]="[1]"></app-spark-line>
+      </td>
+      <td><app-spark-line [name]="'Alabama'" [data]="[1]"></app-spark-line></td>
+      <td>-42</td>
+      <td>
+        <app-spark-line [name]="'Alabama'" [data]="[3]"></app-spark-line>
+      </td>
+    </tr>
+    <tr>
+      <th>Arizona</th>
+      <td>254</td>
+      <td>
+        <app-spark-line [name]="'Arizona'" [data]="[2]"></app-spark-line>
+      </td>
+      <td><app-spark-line [name]="'Arizona'" [data]="[5]"></app-spark-line></td>
+      <td>-42</td>
+      <td>
+        <app-spark-line [name]="'Arizona'" [data]="[1]"></app-spark-line>
+      </td>
+    </tr>
+  </tbody>
+</table>
